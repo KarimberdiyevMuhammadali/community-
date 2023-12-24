@@ -1,13 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Muhammadjon || Carrers</title>
 </head>
+
 <body>
-    <h1>hello world</h1>
-    <script src="../js/main.js"></script>  
+    <style>
+        .careers__hero {
+            width: 1086px;
+            height: 246px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+            -ms-flex-negative: 0;
+            flex-shrink: 0;
+        }
+
+        .careers__hero .hero__h1 {
+            width: 640px;
+            height: 76px;
+            -ms-flex-negative: 0;
+            flex-shrink: 0;
+            color: #1D3444;
+            font-family: Poppins;
+            font-size: 64px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 72px;
+            letter-spacing: -1.92px;
+        }
+
+        .careers__hero .hero__job {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            gap: 40px;
+        }
+
+        .careers__hero .hero__job .job__left {
+            width: 640px;
+            height: 106px;
+            -ms-flex-negative: 0;
+            flex-shrink: 0;
+        }
+
+        .careers__hero .hero__job .job__left .job__h2 {
+            display: block;
+            padding-top: 64px;
+            color: #0D1317;
+            font-family: Poppins;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 30px;
+            letter-spacing: -0.72px;
+        }
+
+        .careers__hero .hero__job .job__left .job__p {
+            margin-top: 16px;
+            width: 640px;
+            color: #5B5B5B;
+            font-family: Poppins;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 30px;
+        }
+
+        .careers__hero .hero__job .job__right {
+            width: 162px;
+            height: 76px;
+            margin-left: 250px;
+            padding-top: 64px;
+            -ms-flex-negative: 0;
+            flex-shrink: 0;
+        }
+
+        .careers__hero .hero__job .job__right .right__h3 {
+            color: #0D1317;
+            font-family: Poppins;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 30px;
+            letter-spacing: -0.72px;
+        }
+
+        .careers__hero .hero__job .job__right .right__p {
+            margin-top: 16px;
+            color: #5B5B5B;
+            font-family: Poppins;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 30px;
+        }
+    </style>
+    <main>
+        <section>
+            <div class="careers__hero">
+                <h1 class="hero__h1">Testing Engineer</h1>
+                <div class="hero__job">
+                    <div class="job__left">
+                        <h2 class="job__h2">Job Discription</h2>
+                        <p class="job__p">Remote, India , 4 to 5 Years Of Experience Department: Website Design <br> 5
+                            Positions Available.</p>
+                    </div>
+                    <div class="job__right">
+                        <h3 class="right__h3">Salary</h3>
+                        <p class="right__p">$30000 Per Anum</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container mx-auto">
+                <div class="flex justify-center items-center w-screen h-screen bg-white">
+                    <div class="container mx-auto my-4 px-4 lg:px-20">
+                        <div
+                            class="w-full p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl">
+                            <div class="flex">
+                                <h1 class="font-bold uppercase text-5xl">Apply Now</h1>
+                            </div>
+                            <div class="grid grid-cols-1 gap-5 md:grid-cols-2 mt-5">
+                                <input
+                                    class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                                    type="text" placeholder="First Name*" />
+                                <input
+                                    class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                                    type="text" placeholder="Last Name*" />
+                                <input
+                                    class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                                    type="email" placeholder="Email*" />
+                                <input
+                                    class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                                    type="number" placeholder="Phone*" />
+                            </div>
+                            <div class="my-4">
+                                <textarea placeholder="Message*"
+                                    class="w-full h-32 bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
+                            </div>
+                            <div class="my-2 w-1/2 lg:w-1/4">
+                                <button class="uppercase text-sm font-bold tracking-wide bg-orange-400 text-gray-100 p-3 rounded-lg w-full 
+                                      focus:outline-none focus:shadow-outline">
+                                    Send Message
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="../js/main.js"></script>
 </body>
+
 </html>
