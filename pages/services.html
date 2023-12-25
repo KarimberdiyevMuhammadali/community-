@@ -3,13 +3,269 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/input.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>services || Yaxyojon</title>
 </head>
 <body>
+    <div id="loading">
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/4c4671f5-8286-46b9-9ee6-114cd4446b16/xeqBblOVjW.json" background="##FFFFFF" speed="1" style="width: 300px; height: 300px" loop  autoplay direction="1" mode="normal"></lottie-player>
+    </div>
+    <button id="mode-btn">
+        <img src="../assets/images/Services/dark.svg" alt="">
+        <img src="../assets/images/Services/light.svg" alt="">
+    </button>
+    <header id="navbar"  class="fixed w-full h-26  py-8">
+        <nav class="container md:w-4/5 mx-auto">
+            <div class="navbar flex  items center justify-between">
+                 <img src="../assets/images/Services/services.header.logo.svg" alt="logo">
+                 <ul class="hidden lg:flex items-center gap-x-4">
+                    <li><a class=" nav-link hover:text-orange-500 transition duration-500 text-base not-italic font-semibold leading-6 capitalize"  href="./about.html">About Us</a></li>
+                    <li><a class=" nav-link hover:text-orange-500 transition duration-500 text-base not-italic font-semibold leading-6 capitalize"  href="./careers.html">CAREERS</a></li>
+                    <li><a class=" nav-link hover:text-orange-500 transition duration-500 text-base not-italic font-semibold leading-6 capitalize"  href="#">Services</a></li>
+                    <li><a class=" nav-link hover:text-orange-500 transition duration-500 text-base not-italic font-semibold leading-6 capitalize"  href="./blog.html">Blog</a></li>
+                    <li><a class=" nav-link hover:text-orange-500 transition duration-500 text-base not-italic font-semibold leading-6 capitalize"  href="./contact.html">Contact us</a></li>
+                    <li><a class=" hover:text-orange-500 transition duration-500 text-base not-italic font-semibold leading-6 capitalize text-orange-500 rounded-full py-3 px-8 bg-yellow-50" href="#">Clone project</a></li>
+                 </ul>
+                 <button id="navbar-open" class="lg:hidden">
+                     <img class="w-8" src="../assets/images/Services/sercices.menu.svg" alt="menu">
+                 </button>
+            </div>
+        </nav>
+    </header>
+    <div id="navbar-responsive" class="flex flex-col gap-y-20">
+        <ul class=" flex flex-col  items-center justify-center gap-y-5 text-white">
+            <li class="w-36 py-3 rounded-md text-center bg-yellow-500" ><a class=" not-italic" href="./about.html">About Us</a></li>
+            <li class="w-36 py-3 rounded-md text-center bg-yellow-500" ><a class="not-italic" href="./careers.html">CAREERS</a></li>
+            <li class="w-36 py-3 rounded-md text-center bg-yellow-500" ><a class="not-italic" href="#">Services</a></li>
+            <li class="w-36 py-3 rounded-md text-center bg-yellow-500" ><a class="not-italic" href="./blog-inner.html">Blog</a></li>
+            <li class="w-36 py-3 rounded-md text-center bg-yellow-500" ><a class="not-italic" href="./contact.html">Contact us</a></li>
+        </ul>
+        <button id="navbar-close">
+            <img class="[width:30px]" src="../assets/images/Services/close.svg" alt="close">
+        </button>
+    </div>
+    <a href="#" id="backtop">
+        <img src="../assets/images/Services/backtop.svg" alt="">
+    </a>
     <main>
-        
+        <div class="section pt-48">
+            <div class="container mx-auto md:w-4/5">
+                  <div class="home__wrapper md:flex gap-x-11 items-center justify-between ">
+                      <div class="home__left text-center md:text-start">
+                          <h1 class="w-full text-6xl not-italic font-semibold leading-18 mb-6 [max-width:618px]">We serve clients with ground breaking solutions</h1>
+                          <p class="w-full  text-base not-italic font-medium leading-6 mb-8 [max-width:510px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo odio, sagittis quis ornare quis.</p>
+                          <a href="./careers2.html" class="text-base  not-italic font-semibold capitalize rounded-full bg-orange-500 py-3 px-8 text-white mb-8">Work With Us</a>
+                      </div>
+                      <div class="home__right home-hover">
+                        <img class="w-full" src="../assets/images/Services/services.home.right.svg" alt="girl-work">
+                      </div>
+                      <div class="home-position ">
+                        <img class="hidden lg:flex" src="../assets/images/Services/home-position.svg" alt="">
+                      </div>
+                  </div>
+            </div>
+        </div>
+        <div class="section pt-48">
+            <div class="container mx-auto md:w-4/5">
+                <div class="home__wrapper md:flex gap-x-11 items-center justify-between">
+                      <div class="home__right section-hover-left">
+                        <img class="w-full mb-2" src="../assets/images/Services/sercices.section-2.svg" alt="girl-work">
+                      </div>
+                      <div class="home__left text-center md:text-start">
+                          <h1 class="w-full text-6xl not-italic font-semibold leading-18 mb-6 [max-width:618px]">Business strategy</h1>
+                          <p class="w-full  text-base not-italic font-medium leading-6 mb-8 [max-width:510px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo odio, sagittis quis ornare quis.</p>
+                          <ul class="list-disc ml-5 text-start">
+                            <li>Cost strategy</li>
+                            <li>Differentiated product or service strategy</li>
+                            <li>Focus on a niche strategy</li>
+                          </ul>
+                      </div>
+                  </div>
+            </div>
+        </div>
+        <div class="section pt-48">
+            <div class="container mx-auto md:w-4/5">
+                  <div class="home__wrapper md:flex gap-x-11 items-center justify-between ">
+                      <div class="home__left text-center md:text-start">
+                          <h1 class="w-full text-6xl not-italic font-semibold leading-18 mb-6 [max-width:618px]">We serve clients with ground breaking solutions</h1>
+                          <p class="w-full  text-base not-italic font-medium leading-6 mb-8 [max-width:510px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo odio, sagittis quis ornare quis.</p>
+                      </div>
+                      <div class="home__right section-hover-right">
+                        <img class="w-full" src="../assets/images/Services/services.section-3.svg" alt="girl-work">
+                      </div>
+                  </div>
+            </div>
+        </div>
+        <div class="section pt-48">
+            <div class="container mx-auto md:w-4/5">
+                  <div class="home__wrapper md:flex gap-x-11 items-center justify-between ">
+                      <div class="home__right section-hover-left">
+                        <img class="w-full mb-2" src="../assets/images/Services/services-section-4.svg" alt="girl-work">
+                      </div>
+                      <div class="home__left text-center md:text-start">
+                          <h1 class="w-full text-6xl not-italic font-semibold leading-18 mb-6 [max-width:618px]">We serve clients with ground breaking solutions</h1>
+                          <p class="w-full  text-base not-italic font-medium leading-6 mb-8 [max-width:510px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo odio, sagittis quis ornare quis.</p>
+                          <ul class="list-disc ml-5 text-start">
+                            <li>Cost strategy</li>
+                            <li>Differentiated product or service strategy</li>
+                            <li>Focus on a niche strategy</li>
+                          </ul>
+                      </div>
+                  </div>
+            </div>
+        </div>
+        <div class="section pt-48">
+            <div class="container mx-auto md:w-4/5">
+                  <div class="home__wrapper md:flex gap-x-11 items-center justify-between ">
+                      <div class="home__left text-center md:text-start">
+                          <h1 class="w-full text-6xl not-italic font-semibold leading-18 mb-6 [max-width:618px]">We serve clients with ground breaking solutions</h1>
+                          <p class="w-full  text-base not-italic font-medium leading-6 mb-8 [max-width:510px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo odio, sagittis quis ornare quis.</p>
+                      </div>
+                      <div class="home__right section-hover-right">
+                        <img class="w-full" src="../assets/images/Services/services-section-5.svg" alt="girl-work">
+                      </div>
+                  </div>
+            </div>
+        </div>
+        <div class="section pt-48">
+            <div class="container mx-auto md:w-4/5">
+                <div class="home__wrapper md:flex gap-x-11 items-center justify-between ">
+                      <div class="home__right section-hover-left">
+                        <img class="w-full mb-2" src="../assets/images/Services/services-section-6.svg" alt="girl-work">
+                      </div>
+                      <div class="home__left text-center md:text-start">
+                          <h1 class="w-full text-6xl not-italic font-semibold leading-18 mb-6 [max-width:618px]">We serve clients with ground breaking solutions</h1>
+                          <p class="w-full  text-base not-italic font-medium leading-6 mb-8 [max-width:510px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo odio, sagittis quis ornare quis.</p>
+                          <ul class="list-disc ml-5 text-start">
+                            <li>Cost strategy</li>
+                            <li>Differentiated product or service strategy</li>
+                            <li>Focus on a niche strategy</li>
+                          </ul>
+                      </div>
+                  </div>
+            </div>
+        </div>
+        <div class="section pt-48 pb-36">
+            <div class="container mx-auto md:w-4/5">
+                  <div class="home__wrapper md:flex gap-x-11 items-center justify-between ">
+                      <div class="home__left text-center md:text-start">
+                          <h1 class="w-full text-6xl not-italic font-semibold leading-18 mb-6 [max-width:618px]">Finsweet was a dream to work with</h1>
+                          <p class="w-full  text-base not-italic font-medium leading-6 mb-8 [max-width:510px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo odio, sagittis quis ornare quis.</p>
+                          <div class="flex items-center gap-x-4 mb-8">
+                            <img src="../assets/images/Services/sercices.news.icon.svg" alt="icon">
+                            <ul class="flex flex-col">
+                                <li class="text-2xl not-italic font-medium leading-9">Chikelu Neo</li>
+                                <li class="text-base not-italic font-medium leading-7 text-orange-500">CEO at MazeAI</li>
+                            </ul>
+                          </div>
+                      </div>
+                      <div class="home__right section-hover-right">
+                        <img class="w-full" src="../assets/images/Services/services-section-7.svg" alt="girl-work">
+                      </div>
+                  </div>
+            </div>
+        </div>
+        <section class="news py-24 bg-blue-100">
+            <div class="container md:w-4/5">
+                   <div class="news__wrapper text-center md:text-start ">
+                       <h2 class=" text-5xl not-italic font-semibold capitalize mb-16">Latest Blog & News</h2>
+                       <div class="news__cards md:flex  justify-between gap-x-10">
+                          <div class="news__card  mb-3">
+                             <img src="../assets/images/Services/sercices.news-1.svg" alt="teacher">
+                             <div class="news__card__content bg-white  py-8 px-4 ">
+                                 <h3 class="text-2xl mb-4 not-italic font-medium leading-9">Why you have to digitalize in 2021</h3>
+                                 <p class=" text-base  not-italic font-medium leading-7 mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et.</p>
+                                 <div class="flex items-center gap-x-3">
+                                    <a class="text-orange-500 text-base not-italic font-medium leading-4" href="#">Learn More</a>
+                                    <img class="mt-1 w-5 h-3" src="../assets/images/Services/services.nav.svg" alt="nav">
+                                 </div>
+                             </div>
+                          </div>
+                          <div class="news__card mb-3">
+                             <img src="../assets/images/Services/sercocex.news.-2.svg" alt="teacher">
+                             <div class="news__card__content bg-white  py-8 px-4 ">
+                                 <h3 class="text-2xl mb-4 not-italic font-medium leading-9">Why you have to digitalize in 2021</h3>
+                                 <p class=" text-base  not-italic font-medium leading-7 mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et.</p>
+                                 <div class="flex items-center gap-x-3">
+                                    <a class="text-orange-500 text-base not-italic font-medium leading-4" href="#">Learn More</a>
+                                    <img class="mt-1 w-5 h-3" src="../assets/images/Services/services.nav.svg" alt="nav">
+                                 </div>
+                             </div>
+                          </div>
+                          <div class="news__card mb-3">
+                             <img src="../assets/images/Services/sercoces.news-3.svg" alt="teacher">
+                             <div class="news__card__content bg-white  py-8 px-4 ">
+                                 <h3 class="text-2xl mb-4 not-italic font-medium leading-9">Why you have to digitalize in 2021</h3>
+                                 <p class=" text-base  not-italic font-medium leading-7 mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et.</p>
+                                 <div class="flex items-center gap-x-3">
+                                    <a class="text-orange-500 text-base not-italic font-medium leading-4" href="#">Learn More</a>
+                                    <img class="mt-1 w-5 h-3" src="../assets/images/Services/services.nav.svg" alt="nav">
+                                 </div>
+                             </div>
+                          </div>
+                       </div>
+                   </div>
+            </div>
+        </section>
     </main>
+    <footer class="py-20 bg-sky-950">
+       <section class="footer-section">
+           <div class="container mx-auto md:w-4/5">
+          <div class="footer__wrapper text-center md:text-start">
+               <div class="footer__top mb-20">
+                  <ul class=" md:columns-2 lg:flex justify-between">
+                    <li>
+                        <img class="ml-12 mb-8 md:ml-0" src="../assets/images/Services/footer.logo.svg" alt="">
+                        <ul>
+                            <li><a class=" w-full  text-3xl text-white not-italic font-semibold leading-11 [max-width:351px] " href="#">ware solutions</a></li>
+                            <li>
+                                <ul class="flex gap-x-3 my-8 ml-11 md:ml-0">
+                                    <li><img src="../assets/images/Services/facebook.svg" alt=""></li>
+                                    <li><img src="../assets/images/Services/youtube.svg" alt=""></li>
+                                    <li><img src="../assets/images/Services/instagram.svg" alt=""></li>
+                                    <li><img src="../assets/images/Services/twitter.svg" alt=""></li>
+                                </ul>
+                            </li>
+                            
+                        </ul>
+                    </li>
+                    <li>
+                        <h4 class="text-base not-italic font-semibold text-white mb-6 ">Company</h4>
+                        <ul class="flex flex-col gap-y-6">
+                            <li><a class="text-base not-italic font-medium text-white" href="#">About Us</a></li>
+                            <li><a class="text-base not-italic font-medium text-white" href="#">Careers</a></li>
+                            <li><a class="text-base not-italic font-medium text-white" href="#">Services</a></li>
+                            <li><a class="text-base not-italic font-medium text-white" href="#">Blog</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4 class="text-base not-italic font-semibold text-white  ">Connect</h4>
+                        <ul class="flex flex-col gap-y-6 mt-6 ">
+                            <li><a class="text-base not-italic font-medium text-white" href="#">hi@finsweet.com</a></li>
+                            <li><a class="text-base not-italic font-medium text-white" href="#">+(123) 456-7890</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4 class="text-base not-italic font-semibold text-white  ">Join Newsletter</h4>
+                        <ul class="flex flex-col gap-y-6 mt-6">
+                            <li><input class="py-3 ps-8 rounded-full" placeholder="Type email here" type="email"></li>
+                            <li><a class="text-base  not-italic font-semibold capitalize py-3 px-8 text-white bg-orange-500 rounded-full" href="#">Subscribe</a></li>
+                        </ul>
+                    </li>
+                  </ul>
+               </div>
+               <div class="footer__bootom text-center md:text-start md:flex items-center justify-between">
+                <a class="text-white" href="#">© All rights reserved – Finsweet</a>
+                <div class="md:flex items-center gap-x-8 ">
+                    <a class="text-white no-underline" href="#">Privacy Policy</a>
+                    <a class="text-white no-underline" href="#">Terms & Conditions</a>
+                </div>
+               </div>
+          </div>
+        </div>
+       </section>
+    </footer>
     <script src="../js/main.js"></script>
 </body>
 </html>
