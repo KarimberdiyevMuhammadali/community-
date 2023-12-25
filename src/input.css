@@ -177,7 +177,7 @@ footer:hover:after{
     padding: 10px;
     background-color: orange;
     position: fixed;
-    right: 20px;
+    right: 70px;
     z-index: 99;
     bottom: -50px;
     transition: 0.5s;
@@ -199,7 +199,7 @@ footer:hover:after{
     background-color: orange;
     position: fixed;
     top: 150px;
-    right: 0px;
+    right: 45px;
 }
 .dark #mode-btn {
     box-shadow: 0px 0px 5px 5px gray;
